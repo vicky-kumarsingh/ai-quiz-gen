@@ -1,0 +1,15 @@
+flowchart TD
+    A[User Input Text] --> B[Text Preprocessing]
+    B --> C[Named Entity Recognition]
+    B --> D[Key Concept Extraction]
+    C --> E[Entity Database]
+    D --> F[Concept Database]
+    E --> G[Question Generation Engine]
+    F --> G
+    G --> H[GPT-3.5 API]
+    H --> I[Question Validation]
+    I --> J[Quiz Assembly]
+    J --> K[User Interface]
+    K --> L[Quiz Taking]
+    L --> M[Score Calculation]
+    M --> N[Performance Analytics]
