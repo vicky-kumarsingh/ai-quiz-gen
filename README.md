@@ -1,1 +1,1 @@
-# ai-quiz-gen
+# Ai-Quiz-Generator
